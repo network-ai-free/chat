@@ -100,7 +100,7 @@ function typeWriter(text, element, speed = 20, callback) {
 
 // Функция для отправки сообщения в Gemini API и потокового получения ответа
 async function sendToGemini(message, botMessageDiv) {
-  const apiKey = 'AIzaSyBEgswMo2xyzcOki16ewHgkfbEgm-02Ar0';
+  const apiKey = 'AIzaSyDKnRvzgXfmdd_tEfR-n0vyhNMagZ9cxmI';
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse&key=${apiKey}`;
   const payload = {
     contents: [
